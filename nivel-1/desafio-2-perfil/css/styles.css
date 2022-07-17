@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-gray: #49445f;
+  --secondary-gray: #d6d4e2;
+  --white: #ffffff;
+  --black: #18161f;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+.container {
+  background-color: var(--secondary-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  width: 314px;
+  padding: 16px 24px;
+}
+
+.profile-icon {
+  margin-right: 16px;
+}
+
+.profile-information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name,
+.text {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--black);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-gray);
+}
