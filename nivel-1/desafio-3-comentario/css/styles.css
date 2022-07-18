@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-gray: #49445f;
+  --secondary-gray: #d6d4e2;
+  --white: #ffffff;
+  --black: #18161f;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+.container {
+  background-color: var(--secondary-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 128px;
+  width: 720px;
+  padding: 24px 56px;
+}
+
+.profile-image {
+  margin-right: 40px;
+}
+
+.profile-information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.name-shipping-time-container {
+  margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name,
+.shipping-time,
+.comment {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+}
+
+.name,
+.shipping-time {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.name {
+  color: var(--black);
+}
+
+.dot-icon {
+  margin: 0 5px;
+}
+
+.shipping-time {
+  color: var(--primary-gray);
+}
+
+.comment {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--black);
+}
