@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-gray: #787490;
+  --secondary-gray: #d6d4e2;
+  --white: #ffffff;
+  --black: #18161f;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+.container {
+  background-color: var(--secondary-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 320px;
+  height: 432px;
+  /* padding: 24px; */
+}
+
+.card-image {
+}
+
+.card-info-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px;
+}
+
+.card-title,
+.profile-name,
+.shipping-time,
+.comment-quantity,
+.view-quantity {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.profile-image {
+  margin-right: 16px;
+}
+
+.profile-name,
+.dot-icon,
+.shipping-time {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.profile-name {
+  color: var(--black);
+}
+
+.dot-icon {
+  margin: 0 6px;
+}
+
+.dot-icon,
+.shipping-time {
+  color: var(--primary-gray);
+}
+
+.comments-views-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.comments-container,
+.views-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 32px;
+}
+
+.comment-quantity,
+.view-quantity {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-gray);
+}
