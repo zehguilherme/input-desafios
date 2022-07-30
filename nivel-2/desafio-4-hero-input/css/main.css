@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.25rem;
+  flex-grow: 1;
+}
+
+.course-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 42.5rem;
+}
+
+.class-number {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: var(--primary-gray);
+  text-transform: uppercase;
+  margin-bottom: 1.563rem;
+}
+
+.course-title {
+  font-weight: 700;
+  font-size: 3.25rem;
+  line-height: 4rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.course-synopsis {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  color: var(--primary-gray);
+  margin-bottom: 3.5rem;
+}
+
+.vacancy-reservation {
+  padding: 1.5rem 3rem;
+  background-color: var(--green);
+  border-radius: 90px;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  transition: background-color 0.4s;
+}
+
+.vacancy-reservation:hover {
+  background-color: #00d9c0c4;
+}
+
+.teacher {
+  width: 26.313rem;
+  height: 28.813rem;
+}

@@ -1,0 +1,49 @@
+.header {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-logo {
+  width: 8.058rem;
+  height: 3rem;
+}
+
+.links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.already-student,
+.new-student {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--white);
+  transition: color 0.4s;
+}
+
+.already-student:hover,
+.new-student:hover {
+  color: #cccccc;
+}
+
+.new-student:hover .user-icon {
+  fill: #cccccc;
+}
+
+.already-student {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.new-student {
+  border: 1px solid var(--secondary-gray);
+  border-radius: 90px;
+  font-weight: 700;
+}
